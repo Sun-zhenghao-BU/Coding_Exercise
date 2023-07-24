@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class ArrayOne {
+public class Array1D {
     public static void main(String[] args) {
         int[] arr1 = new int[10];
         for(int i = 0; i < arr1.length; i++) {
