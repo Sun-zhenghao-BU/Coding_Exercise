@@ -11,6 +11,10 @@ class Teacher {
         this.name = name;
     }
 
+    public static void moveOffice(String newOfficeAddress) {
+        officeAddress = newOfficeAddress;
+        System.out.println(officeAddress);
+    }
 }
 
 public class TeacherMain {
@@ -21,8 +25,9 @@ public class TeacherMain {
         Teacher Anthony = new Teacher("Anthony");
         System.out.println(Anthony.name);
 
-        Teacher.officeAddress = "1234 Commonwealth";
-        System.out.println(Sun.officeAddress);
+        Teacher.officeAddress = "Boston, MA";
+        System.out.println(Teacher.officeAddress);
+        Teacher.moveOffice("Seattle WA");
 
     }
 }
