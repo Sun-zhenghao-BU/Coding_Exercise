@@ -17,6 +17,26 @@ class Teacher {
     }
 }
 
+class LaiOfferTeacher {
+    static String name;
+    String homeAddress;
+    static String officeAddress;
+
+    public LaiOfferTeacher(String name) {
+        this.name = name;
+    }
+
+    public static void moveOffice() {
+        officeAddress = "Seattle, WA";
+        System.out.println(name);
+    }
+
+//    static void printFields() {
+//        System.out.println(name);
+//        System.out.println(officeAddress);
+//    }
+}
+
 public class TeacherMain {
     int[][] array = new int[][] {
       new int[]{0, 0, 0},
@@ -37,15 +57,14 @@ public class TeacherMain {
             array[i] = 5;
             System.out.println(array[i]);
         }
-//        Teacher Sun = new Teacher("Sun");
-//        System.out.println(Sun.name);
-//
-//        Teacher Anthony = new Teacher("Anthony");
-//        System.out.println(Anthony.name);
-//
-//        Teacher.officeAddress = "Boston, MA";
-//        System.out.println(Teacher.officeAddress);
-//        Teacher.moveOffice("Seattle WA");
+        Teacher Sun = new Teacher("Sun");
+        System.out.println(Sun.name);
 
+        Teacher Anthony = new Teacher("Anthony");
+        System.out.println(Anthony.name);
+
+        Teacher.officeAddress = "Boston, MA";
+        System.out.println(Teacher.officeAddress);
+        Teacher.moveOffice("Seattle WA");
     }
 }
