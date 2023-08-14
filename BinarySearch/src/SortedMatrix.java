@@ -68,6 +68,8 @@ public class SortedMatrix {
         return -1;
     }
 
+//    TC: O(m + logn)
+//    SC: O(1)
 
     //    Method 2
     //    mapping the matrix to 1D array and Binary Search
@@ -94,6 +96,6 @@ public class SortedMatrix {
         }
         return new int[]{-1, -1};
     }
-//    TC: O(log(m * n))
+//    TC: O(log(m * n)) == logm + logn
 //    SC: O(1)
 }
