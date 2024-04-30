@@ -22,3 +22,4 @@ public class Power2 {
 
 // TC: O(b)
 // SC: O(logb)
+
