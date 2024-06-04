@@ -1,7 +1,7 @@
 public class BinarySearch {
     public static void main(String[] args) {
         int[] array = new int[]{3, 5, 7, 9, 13, 17, 23};
-        int target = 17;
+        int target = 23;
         int res = binarySearch(array, target);
         System.out.println(res);
     }
@@ -17,7 +17,7 @@ public class BinarySearch {
             } else if (array[mid] > target) {
                 right = mid - 1;
             } else {
-                left = left + 1;
+                left = mid + 1;
             }
         }
         return -1;
