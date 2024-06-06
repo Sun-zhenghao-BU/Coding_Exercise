@@ -7,21 +7,23 @@ public class FindKthElementOfLinkedList {
         node1.next = node2;
         node2.next = node3;
 
-        ListNode resNode = findKthElementOfLinkedList(node1, 2);
-        System.out.println(resNode.value);
+        ListNode resNode = findKthElementOfLinkedList(node1, 4);
+
+//        System.out.println(resNode.value);
     }
 
-    private static ListNode findKthElementOfLinkedList(ListNode head, int K) {
-        if (head == null || K < 0) {
+    public static ListNode findKthElementOfLinkedList(ListNode head, int k) {
+        // corner case check
+        if (head == null || k < 0) {
             return null;
         }
         ListNode cur = head;
         int index = 0;
-        while (cur != null && index != K) {
-            cur = cur.next;
+        while (cur != null && index != k) {
             index++;
+            cur = cur.next;
         }
-        return null;
+    	return cur;
     }
 }
 
