@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Basic/Basic.iml" filepath="$PROJECT_DIR$/Basic/Basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/BinarySearch/BinarySearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinaryTree/BinaryTree.iml" filepath="$PROJECT_DIR$/BinaryTree/BinaryTree.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Coding Exercise.iml" filepath="$PROJECT_DIR$/.idea/Coding Exercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/Epic/Epic.iml" filepath="$PROJECT_DIR$/Epic/Epic.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
