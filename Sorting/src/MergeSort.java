@@ -15,7 +15,7 @@ public class MergeSort {
             return null;
         }
         // base case
-        if (left == right) {
+        if (left >= right) {
             return new int[]{array[left]};
         }
         // subProblem

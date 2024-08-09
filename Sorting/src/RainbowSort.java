@@ -2,13 +2,13 @@ import java.util.Arrays;
 
 public class RainbowSort {
     public static void main(String[] args) {
-        int[] array = new int[]{-1, 0, 0, 1, 0 , -1 ,1, -1, -1, 0};
+        int[] array = new int[]{-1, 0, 0, 1, 0, -1 ,1, -1, -1, 0};
         RainbowSort solution = new RainbowSort();
         int[] resArr = solution.rainbowSort(array);
         System.out.println(Arrays.toString(resArr));
     }
 
-    public int[] rainbowSort(int[] array) {
+    private int[] rainbowSort(int[] array) {
         // corner case
         if (array == null || array.length == 0) {
             return null;
